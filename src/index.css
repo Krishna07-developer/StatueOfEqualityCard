@@ -67,3 +67,11 @@ b {
   background: white;
   padding: 0px 10px !important;
 }
+
+.MuiBox-root .css-149kwm6{
+  padding: 0 !important;
+  overflow-x: unset !important;
+  overflow-y: unset !important;
+  max-height: none !important;
+  margin-left: -11px;
+}

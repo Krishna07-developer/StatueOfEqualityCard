@@ -4,7 +4,7 @@ import useNetwork from "../hooks/useNetwork"
 import Loader from "../components/Loader"
 import { useParams } from "react-router-dom"
 import Theme1 from "../card-themes/Theme1"
-import Theme2 from "../card-themes/Theme2"
+import Theme7 from "../card-themes/Theme7"
 
 
 function Card() {
@@ -33,7 +33,7 @@ function Card() {
       case 1:
         return <Theme1 card={card} />
       case 2:
-        return <Theme2 card={card} />
+        return <Theme7 card={card} />
       default:
         return <Theme1 card={card} />
     }
